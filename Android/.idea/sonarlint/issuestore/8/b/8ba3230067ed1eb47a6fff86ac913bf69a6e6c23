@@ -1,0 +1,10 @@
+
+]squid:UselessImportCheck"-Remove this unused import 'android.util.Log'.(Ô¦Ø²øÿÿÿÿ8´Ãß£¯.
+ksquid:S00116 "SRename this field "user_pwd" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­îÙê
+lsquid:S1450!"URemove the "queueC" field and declare it as a local variable in the relevant methods.(õùÿ²
+Xsquid:UselessImportCheck"/Remove this unused import 'org.json.JSONArray'.(¬¸Ê’üÿÿÿÿ
+qsquid:S1450#"URemove the "userid" field and declare it as a local variable in the relevant methods.(Ä‰…³úÿÿÿÿ
+jsquid:S00116"RRename this field "user_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§ŸÌÑ
+esquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(×Ý·ø
+hsquid:S00117>"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù£¾`
+usquid:S2293Y"YReplace the type specification in this constructor call with the diamond operator ("<>").(ô›Óíüÿÿÿÿ

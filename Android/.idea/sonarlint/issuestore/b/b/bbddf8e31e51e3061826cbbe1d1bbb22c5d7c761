@@ -1,0 +1,46 @@
+
+}squid:S2293£"YReplace the type specification in this constructor call with the diamond operator ("<>").(ô›Óíüÿÿÿÿ8Ú¡ìâ«.
+qsquid:S00117„"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú±è…8³ÊÅâ«.
+osquid:CommentedOutCodeLine÷"<This block of commented-out lines of code should be removed.(›²™×úÿÿÿÿ8Ú¡ìâ«.
+]squid:UselessImportCheck"-Remove this unused import 'android.util.Log'.(Ô¦Ø²øÿÿÿÿ8Ã¥˜ã«.
+jsquid:MaximumInheritanceDepth,"<This class has 6 parents which is greater than 5 authorized.(æþÎ ùÿÿÿÿ
+Ysquid:S2696H"6Make the enclosing method "static" or remove this set.(¶Ÿšþÿÿÿÿ8¢Âðá«.
+rsquid:S14501"TRemove the "queue" field and declare it as a local variable in the relevant methods.(®¤œé8Œ†ã«.
+jsquid:CommentedOutCodeLineã"<This block of commented-out lines of code should be removed.(žç¤8Ú¡ìâ«.
+gsquid:S1192¤"HDefine a constant instead of duplicating this literal "Bearer " 4 times.(­Îœ¼8™Ãß£¯.
+msquid:S1192¤"NDefine a constant instead of duplicating this literal "Authorization" 4 times.(­Îœ¼8™Ãß£¯.
+}squid:S2293Ó"YReplace the type specification in this constructor call with the diamond operator ("<>").(ô›Óíüÿÿÿÿ8™Ãß£¯.
+}squid:S2293¨"YReplace the type specification in this constructor call with the diamond operator ("<>").(ô›Óíüÿÿÿÿ8™Ãß£¯.
+}squid:S2293ö"YReplace the type specification in this constructor call with the diamond operator ("<>").(ô›Óíüÿÿÿÿ8™Ãß£¯.
+xsquid:S2293þ"YReplace the type specification in this constructor call with the diamond operator ("<>").(«üÎŒ8™Ãß£¯.
+{squid:S14507"XRemove the "bookqueue" field and declare it as a local variable in the relevant methods.(öòå×úÿÿÿÿ8™Ãß£¯.
+isquid:CommentedOutCodeLine="<This block of commented-out lines of code should be removed.(öÿš‘8™Ãß£¯.
+nsquid:CommentedOutCodeLines"<This block of commented-out lines of code should be removed.(™ÕÃ¼þÿÿÿÿ8™Ãß£¯.
+jsquid:CommentedOutCodeLine¯"<This block of commented-out lines of code should be removed.(¸Ùß¡8™Ãß£¯.
+osquid:CommentedOutCodeLineº"<This block of commented-out lines of code should be removed.(ÕéÉûÿÿÿÿ8™Ãß£¯.
+osquid:CommentedOutCodeLineò"<This block of commented-out lines of code should be removed.(”èŸ’úÿÿÿÿ8™Ãß£¯.
+jsquid:CommentedOutCodeLine‰"<This block of commented-out lines of code should be removed.(÷²É—8™Ãß£¯.
+jsquid:CommentedOutCodeLine‹"<This block of commented-out lines of code should be removed.(Ž®ƒ÷8™Ãß£¯.
+osquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¿á§þüÿÿÿÿ8™Ãß£¯.
+osquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8™Ãß£¯.
+osquid:CommentedOutCodeLine”"<This block of commented-out lines of code should be removed.(—˜Ãèøÿÿÿÿ8™Ãß£¯.
+osquid:CommentedOutCodeLine–"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8™Ãß£¯.
+osquid:CommentedOutCodeLine˜"<This block of commented-out lines of code should be removed.(—˜Ãèøÿÿÿÿ8™Ãß£¯.
+osquid:CommentedOutCodeLineš"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8™Ãß£¯.
+osquid:CommentedOutCodeLine "<This block of commented-out lines of code should be removed.(×§ŠÕüÿÿÿÿ8™Ãß£¯.
+osquid:CommentedOutCodeLineá"<This block of commented-out lines of code should be removed.(Áé†Íüÿÿÿÿ8™Ãß£¯.
+jsquid:CommentedOutCodeLineã"<This block of commented-out lines of code should be removed.(ëÀ¬½8™Ãß£¯.
+osquid:CommentedOutCodeLineì"<This block of commented-out lines of code should be removed.(è¦äÌùÿÿÿÿ8™Ãß£¯.
+Usquid:S2696å"6Make the enclosing method "static" or remove this set.(ÉÜú¥8™Ãß£¯.
+esquid:HiddenFieldCheckÛ"6Rename "c" which hides the field declared at line 125.(•ýãùùÿÿÿÿ8™Ãß£¯.
+Msquid:S1481·")Remove this unused "time" local variable.(ËÙãÍýÿÿÿÿ8™Ãß£¯.
+\squid:S1854·"8Remove this useless assignment to local variable "time".(ËÙãÍýÿÿÿÿ8™Ãß£¯.
+vsquid:S00117²"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡æÍ„þÿÿÿÿ8™Ãß£¯.
+qsquid:S00117¼"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±¸Áë8™Ãß£¯.
+qsquid:S00117¾"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥ê×†8™Ãß£¯.
+vsquid:S00117í"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( Ì¹õþÿÿÿÿ8™Ãß£¯.
+qsquid:S00117ï"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßÄ©º8™Ãß£¯.
+qsquid:S00117É"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ¼ò¨8™Ãß£¯.
+squid:UselessImportCheck*"TRemove this unnecessary import: same package classes are always implicitly imported.(ÓÜ‘´8™Ãß£¯.
+Vsquid:UselessImportCheck	",Remove this unused import 'android.nfc.Tag'.(¡¸ó8™Ãß£¯.
+jsquid:UselessImportCheck":Remove this unused import 'android.widget.RelativeLayout'.(ü¯ðõþÿÿÿÿ8™Ãß£¯.

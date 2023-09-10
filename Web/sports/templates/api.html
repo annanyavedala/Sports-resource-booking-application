@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+	       <!-- <link rel="stylesheet" type="text/css" href="app.css"> -->
+        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    
+    <style>
+    
+    /*body{
+        background: url(https://images.unsplash.com/photo-1486286701208-1d58e9338013?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        } */
+    .h1{
+        margin: 50px 50px 50px 250px;
+        
+    }
+
+    .card{
+        margin: 25px 0px;
+    }
+
+    .fa-plus-circle{
+        font-size: 30px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .fa-minus-circle{
+        font-size: 30px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .number{
+        font-size: 28px;
+        padding-right: 20px;
+    }
+
+	
+  .buttonRight{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        display: inline-block;
+        margin-left: -20px;
+        margin-right: 150px;
+        margin-bottom: 80px;
+        padding: 10px 24px;
+        position: fixed;
+        }
+        .btn-circle {
+      width: 40px;
+      height: 40px;
+      padding: 6px 0px;
+      border-radius: 75px;
+      text-align: center;
+      font-size: 20px;
+      line-height: 1.42857;
+  }
+        .form-popup {
+        display: none;
+        position: fixed;
+        bottom: 0;
+        right: 15px;
+        border: 3px solid #f1f1f1;
+        z-index: 9;
+      }
+      .form-container {
+      max-width: 300px;
+      padding: 10px;
+      background-color: white;
+    }
+    /* Set a style for the submit/login button */
+      .form-container .btn {
+        background-color: #4CAF50;
+        color: white;
+        padding: 16px 20px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        margin-bottom:10px;
+        opacity: 0.8;
+      }
+      /* Add a red background color to the cancel button */
+      .form-container .cancel {
+        background-color: rgba(255, 0, 0, 0.746);
+      }
+      .form-container input[type=text] {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      border: none;
+      background: #f1f1f1;
+    }
+	</style>
+
+	<title>Sports Resources</title>
+    
+    </head>
+    
+<body>
+        
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      
+    <div class="container">
+      
+      <a class="navbar-brand" href="{% url 'resources' %}">Sports Resources</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          
+          <ul class="navbar-nav mr-auto">
+            <!-- <li class="nav-item active">
+            <a class="nav-link" href="#">Home </a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'about' %}">About</a>
+            </li>
+    
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'bookingHistory' %}">Booking History</a>
+            </li>
+    
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'bookingRequests' %}">Booking Requests</a>
+            </li>
+    
+            <li class="nav-item active">
+              <a class="nav-link" href="{% url 'blockedUsers' %}">Blocked Users</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'timetable' %}">Timetable</a>
+            </li>
+          </ul>
+    
+          <ul class="nav navbar-nav navbar-right">
+            
+            <!--<li class="nav-item"><a class="nav-link" href ="{% url 'logout' %}">Logout</a></li>-->
+            <div class="bs-example">
+            <div class="btn-group-vertical">
+                <div class="btn-group">
+                    <button id="butn-1" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Account</button>
+                    <div class="dropdown-menu">
+                        <a href="{% url 'updatePassword' %}" class="dropdown-item">Change Password</a>
+                        <a href="{% url 'logout' %}" class="dropdown-item">Logout</a>
+                    </div>
+                </div>
+            <!-- <li class="nav-item"><a class="nav-link"href ="#">Login <i class="fa fa-user-plus" aria-hidden="true"></i></a></li> -->
+          
+           </ul>
+
+        </div>
+
+    </div> 
+
+  </nav>
+
+  <div class="container">
+    <h1 class="mt-4 pt-4">Resources</h1>
+    {% for i in data %}
+    <div class="card bg-light">
+      <div class="card-body px-5">
+
+        <i class="btn btn-circle fa fa-minus-circle pull-right text-danger pl-2" aria-hidden="true" onclick=decr({{i.resource_id}})></i>
+        <i class="btn btn-circle fa fa-plus-circle pull-right text-primary pr-2" aria-hidden="true" onclick=incr({{i.resource_id}})></i>
+        <div class="h3 d-inline">{{i.resource_name}}</div><br>
+        <div class="d-inline">( {{i.resources_available}} / {{i.count}} )</div>
+        <!-- <div class="small">Description</div> -->
+      </div>
+    </div>
+    {% endfor %}
+
+      <div class="buttonRight">
+        <button type="button" class="btn btn-success btn-circle btn-xl" onclick="openForm()" >
+        <i class="fa fa-plus" aria-hidden="true" ></i>
+        </button>
+        <div class="form-popup" id="myForm" style="display:none">
+          <form method="POST" action="{%url 'add_resource'%}" class="form-container" >
+            {% csrf_token %}
+            <label for="name"><b>Name</b></label>
+            <input type="text" placeholder="Enter Resource name" name="name" required>
+            <br>
+            <label for="count"><b>Count</b></label>
+            <input type="text" placeholder="Enter the Count" name="count" required>
+          
+            <button type="submit" class="btn">Submit</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+          </form>
+        </div>
+      </div>
+        <script>
+          function incr(id){
+            $.ajax({
+              type:"GET",
+              data:{'id':id},
+              url:"{{'/sports/incOne'}}",
+              success:function(data){
+                location.reload()
+              }
+            });
+          }
+        </script>
+        <script>
+          function decr(id){
+            $.ajax({
+              type:"GET",
+              data:{'id':id},
+              url:"{{'/sports/decOne'}}",
+              success:function(data){
+                location.reload()
+              }
+            });
+          }
+        </script>
+        </script>
+        <script>
+          function openForm() {
+            document.getElementById("myForm").style.display = "block";
+          }
+          
+          function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+          }
+          </script>
+    </div>
+    </body>
+</html>

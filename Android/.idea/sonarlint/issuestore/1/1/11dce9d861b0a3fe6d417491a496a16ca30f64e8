@@ -1,0 +1,15 @@
+
+^squid:UselessImportCheck".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8ıûÃâ«.
+Esquid:S1481+")Remove this unused "roll" local variable.(ìÜ¶²ÿÿÿÿÿ
+Tsquid:S2696?"6Make the enclosing method "static" or remove this set.(İêÀ8²ˆÕâ«.
+Zsquid:UselessImportCheck"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8ıûÃâ«.
+]squid:UselessImportCheck"-Remove this unused import 'android.util.Log'.(Ô¦Ø²øÿÿÿÿ8ÒË˜ã«.
+Usquid:S1854,"7Remove this useless assignment to local variable "pwd".(Ú¦ôö8€ï¤â«.
+Fsquid:S1481,"(Remove this unused "pwd" local variable.(Ú¦ôö8€ï¤â«.
+_squid:UselessImportCheck"/Remove this unused import 'org.json.JSONArray'.(¬¸Ê’üÿÿÿÿ8ıûÃâ«.
+ksquid:UselessImportCheck"@Remove this unused import 'com.android.volley.AuthFailureError'.(¤ˆñ¢8ıûÃâ«.
+tsquid:S20682"V'password' detected in this expression, review this potentially hard-coded credential.(¬”¾½8ğëæá«.
+psquid:S00117."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Åøó8‹üÈâ«.
+Tsquid:S1854+"8Remove this useless assignment to local variable "roll".(ìÜ¶²ÿÿÿÿÿ
+isquid:UselessImportCheck"ERemove this unused import 'androidx.appcompat.app.AppCompatActivity'.(€¶£î
+]squid:UselessImportCheck"4Remove this unused import 'android.widget.TextView'.(„Ë‚ˆÿÿÿÿÿ

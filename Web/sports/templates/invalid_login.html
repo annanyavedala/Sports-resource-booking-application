@@ -1,0 +1,49 @@
+<html>
+<head>
+<title> Login Page </title>
+<!-- CSS  -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<!-- JS, Popper.js, and jQuery -->
+
+<style>
+body{
+	background: url(https://p7cdn4static.sharpschool.com/UserFiles/Servers/Server_92830/Image/News%20images/101287275.jpg) ;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+p{
+	background-color:red;
+}
+</style>
+</head>
+<body>
+	
+<div class="container">
+	<form method="POST" action="{%url 'home'%}">
+		{% csrf_token %}
+		
+		<div class="form-group">
+		<label for="id" style="color:white">Id</label>
+		<input type="text" name="id" style="height:30px; width:400px" placeholder="Enter Id" required class="form-control">
+		<label for="name"  style="color:white">Username</label>
+		<input type="text" name="username" style="height:30px; width:400px" placeholder="Enter Username" required class="form-control">
+		<label for="password" style="color:white">Password</label>
+		<input type="password" name="password" placeholder="Enter Password" style="height:30px; width:400px" required class="form-control">
+		</div>
+		<!--<a href="{% url 'resources' %}">--> 
+		<input type="submit" style="background-color:green" value="Login">
+		<!-- </a> -->
+		<p> Invalid Credentials!!! Please login again.</p>
+	</form>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
